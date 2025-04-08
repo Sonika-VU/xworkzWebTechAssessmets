@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Boxing Model</title>
+    <style>
+        .container {
+            width: 100%;
+            text-align: right;
+            /* border: 1px solid #ccc; */
+        }
+
+        .sq1,
+        .sq2,
+        .sq3 {
+            border: 3px solid red;
+            height: 100px;
+            width: 100px;
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+        .re1,
+        .re2,
+        .re3 {
+            border: 3px solid red;
+            height: 100px;
+            width: 150px;
+            display: inline-block;
+            margin-left: 10px;
+        }
+        .re4{
+            border : 3px solid rebeccapurple;
+            height: 200px;
+            width: 400px;
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+        .sq4{
+            border : 3px solid rgb(40, 238, 44);
+            height: 100px;
+            width: 100px;
+            display: inline-block;
+            margin: 40px 150px ;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="sq1"></div>
+        <div class="sq2"></div>
+        <div class="sq3"></div>
+    </div>
+
+    <br>
+
+    <div class="container">
+        <div class="re1"></div>
+        <div class="re2"></div>
+        <div class="re3"></div>
+    </div>
+
+    <div class="container">
+        <div class="re4">
+            <div class="sq4"></div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
