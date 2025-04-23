@@ -1,0 +1,215 @@
+.header{
+  display: flex;
+}
+
+.logo-img {
+    height: 8vh;
+    width: 12vh;
+    margin-left: 10vh;
+    margin-top: 1vh;
+      
+}
+
+i{
+  position: absolute;
+  margin-top: 3vh;
+}
+
+#searchId{
+  text-align: right;
+  margin-top: 3vh;
+  margin-left: 30vh;
+  border-radius: 0 200px 200px;
+  max-width: 100px;
+}
+
+#searchId i {
+  position: absolute;
+  margin-top: 1vh;
+  margin-left: 80vh;
+  border-radius: 4vh;
+  max-width: 600px;
+}
+
+#searchId input {
+  padding: 1vh;
+  border: 1px solid black;
+  border-radius: 2vh;
+  padding-left: 2vh;
+  width: 600px;
+}
+
+#microphoneId {
+  margin-left: 75vh;
+  margin-top: 1vh;
+}
+
+#dots3 {
+  margin-left: 50vh;
+  margin-top: 1vh;
+}
+
+#signIn {
+  margin-left: 3vh;
+  margin-top: 3vh;
+}
+
+#signIn button{
+  border-radius: 2vh;
+  color: blue;
+  background-color: white;
+}
+
+
+
+.fullFrame {
+  position: absolute;
+  display: flex;
+}
+
+.mainVideo{
+  flex: 3vh;
+}
+
+.rightVideo {
+  position: relative;
+  margin-top: 0vh;
+  margin-left: 7vh;
+  margin-right: 5vh;
+  height: 200;
+  width: 80;
+}
+
+.vidInfo {
+  display: flex;
+}
+
+.video-text {
+  margin-left: 2vh;
+}
+
+.vidInfo h6 {
+  font-size: medium;
+  margin: 0;
+}
+
+.vidInfo p {
+  margin: 0.5vh 0 0 0;
+  font-size: small;
+  color: gray;
+}
+
+.h6 {
+  font-size:medium;
+  margin-top: 0px;
+  margin-left: 5px;
+}
+
+p{
+  margin-top: px;
+  font-size: small;
+  font-weight: lighter;
+  margin-left:5px ;
+}
+
+
+.mainVideo iframe,
+.rightVideo iframe {
+  border-radius: 1vh;
+  overflow: hidden;
+  border: none;
+}
+
+.imgFooter {
+  display: flex;
+}
+
+.imgFooter h5 {
+  margin-left: 2vh;
+  margin-top: 1vh;
+}
+
+.subscribe {
+  border-radius: 2vh;
+  background-color: black;
+  color: white;
+  margin-left: 6vh;
+  margin-top: 2vh;
+  height: 4vh;
+}
+
+
+
+button{
+  border-radius: 2vh;
+}
+
+.share button {
+  display: inline-flex;      
+  align-items: center;       
+  gap: 0.5rem;               
+  padding: 0.5rem 1rem;     
+  border: none;             
+  background: white;  
+  cursor: pointer;
+  margin-left: 5vh;
+  margin-top: 1vh;
+}
+
+.share button i {
+  position: static;
+  margin-top: 0;
+  font-size: 1.25rem;       
+}
+
+
+.header i {
+  position: absolute;
+  margin-top: 3vh;
+}
+
+.thumpsUp button {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 10vh;
+  border: none;
+  background: white;
+  cursor: pointer;
+  margin-left: 20vh;
+  margin-top: 2vh;
+}
+
+.thumpsUp button i {
+  position: static;
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.download button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: white;
+  cursor: pointer;
+  margin-left: 3vh;
+  margin-top: 1vh;
+}
+
+.download button i {
+  position: static;
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+
+
+.right3dots {
+  margin-left: auto;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  margin-top: 0.5vh;
+}
+
+
