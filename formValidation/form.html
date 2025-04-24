@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UserForm</title>
+    <script src="form.js"></script>
+</head>
+<body>
+
+    <form name="formName" onsubmit="return submitForm()">
+        <div>
+            <label for="nameId">Name </label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <input type="text" id="nameId" name="nameName" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="numberId">Phone Number </label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <input type="number" id="numberId" name="numberName" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="emailId">Email </label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <input type="email" id="emailId" name="emailName" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="collegeId">College Name </label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <input type="text" id="collegeId" name="collegeName" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="locationId">Location </label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <input type="text" id="locationId" name="locationName" required>
+        </div>
+
+        <br>
+        <div>
+            <button type="submit" value="Submit">Submit</button>
+            <button type="reset" value="Clear">Clear</button>
+        </div>
+    </form>
+    
+</body>
+</html>
