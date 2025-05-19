@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TeeStack Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://use.fontawesome.com/dfba0bb4d8.js"></script>
+  </head>
+  <body>
+    <section id="header">
+     <a href="#"><img src="img/logo.jpg" class="logo" alt="Logo" width="180" height="80"></a>
+
+
+      <div>
+        <ul id="navbar">
+          <a href="#" id="close"><i class="fa fa-close"></i></a>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About-Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="lg-bag">
+            <a class="active" href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i>
+              <li><a href="login.html">Login</a></li>
+          </a>
+          </li>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"
+          ><i class="fa fa-shopping-bag" aria-hidden="true"></i
+        ></a>
+        <i id="bar" class="fa fa-bars" aria-hidden="true"></i>
+      </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+      <h2>CART</h2>
+     
+      <a href="#" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+      </a>
+    </section>
+
+    
+    <div class="small-container">
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Subtotal</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="img/products/f1.jpg" alt="Tshirt" />
+              <div>
+                <p>Casual Solid T-shirt</p>
+                <small>Price: ₹985 </small>
+                <br />
+                <a href="#">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>985</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="img/products/f3.jpg" alt="Tshirt" />
+              <div>
+                <p>Printed Regular Fit Tee</p>
+                <small>Price: ₹1200</small>
+                <br />
+                <a href="#">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>1200</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="img/products/f5.jpg" alt="Tshirt" />
+              <div>
+                <p>Workout Ready Tee</p>
+                <small>Price: ₹1005</small>
+                <br />
+                <a href="#">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>1005</td>
+        </tr>
+      </table>
+
+      <div class="total-price">
+        <table>
+          <tr>
+            <td>Subtotal</td>
+            <td>3190</td>
+          </tr>
+          <tr>
+            <td>Tax</td>
+            <td>35</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>3225</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+<div class="copyright">
+        <p>&copy; 2025 TeeStack. All rights reserved. <br> Made by Sonika V U</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

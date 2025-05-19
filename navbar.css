@@ -1,0 +1,52 @@
+.navClass{
+    background-color: rgb(183, 125, 237);
+    border-radius: 2vh;
+    height: 10vh;
+    border: double black;
+}
+
+.navClass ul{
+    list-style: none;
+
+}
+
+.navClass ul li {
+    float: left;
+    padding: 2vh;
+    
+}
+
+.navClass ul li a {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.navClass ul li a:hover{
+    background-color: rgb(59, 0, 88);
+    color: white;
+    border-radius: 1vh;
+}
+
+#searchId{
+    text-align: right;
+    margin-top: 3vh;
+    margin-right: 1vh;
+    border-radius: 1vh;
+}
+
+#searchId i {
+    position: absolute;
+    margin-top: 1vh;
+    border-radius: 1vh;
+}
+
+#searchId input {
+    padding: 1vh;
+    border: 1px solid black;
+    border-radius: 1vh;
+    padding-left: 2vh;
+   
+}
+
+

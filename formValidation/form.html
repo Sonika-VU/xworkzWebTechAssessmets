@@ -7,14 +7,26 @@
     <script src="form.js"></script>
 </head>
 <body>
+    <!-- <span id="blankSpanId"></span><br>
+
+    <span class="myClass">hiii</span>
+
+    <span name="nameIdId">sonika</span>
+    <span></span>
+
+    <span class="myClass">i'm fine</span> -->
+    <!-- <button onclick="onClick()">Click</button> -->
 
     <form name="formName" onsubmit="return submitForm()">
+
         <div>
             <label for="nameId">Name </label>
             <span style="color: red;">*</span>
             <span>:</span>
             <input type="text" id="nameId" name="nameName" required>
+            <span id="nameErrorId" style="color: red;"></span>
         </div>
+
         <br>
 
         <div>
@@ -22,11 +34,20 @@
             <span style="color: red;">*</span>
             <span>:</span>
             <input type="number" id="numberId" name="numberName" required>
+            <span id="phoneErrorId" style="color: red;"></span>
         </div>
+        <br>
+
+        <!-- <div>
+            <label for="ageId">Age </label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <input type="number" id="ageId" name="ageName" required>
+        </div> -->
 
         <br>
 
-        <div>
+        <!-- <div>
             <label for="emailId">Email </label>
             <span style="color: red;">*</span>
             <span>:</span>
@@ -51,7 +72,7 @@
             <input type="text" id="locationId" name="locationName" required>
         </div>
 
-        <br>
+        <br> -->
         <div>
             <button type="submit" value="Submit">Submit</button>
             <button type="reset" value="Clear">Clear</button>
